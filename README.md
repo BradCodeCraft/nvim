@@ -1,4 +1,19 @@
 # My NeoVim Configuration file
+
+### Recommended Step
+
+[Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repo
+so that you have your own copy that you can modify, then install by cloning the
+fork to your machine using one of the commands below, depending on your OS.
+
+> **NOTE**
+> Your fork's url will be something like this:
+> `https://github.com/<your_github_username>/nvim.git`
+
+You likely want to remove `lazy-lock.json` from your fork's `.gitignore` file
+too - it's ignored in the kickstart repo to make maintenance easier, but it's
+[recommmended to track it in version control](https://lazy.folke.io/usage/lockfile).
+
 ## Clone this configuration
 > **NOTE**
 > If following the recommended step above (i.e., forking the repo), replace
