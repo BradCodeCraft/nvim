@@ -35,13 +35,13 @@ git clone https://github.com/bradcodecraft/nvim.git "${env:LOCALAPPDATA}\nvim"
 
 **NOTE**: Check out lua/plugins for installed plugins
 
-### Install Recipes
+## Install Recipes
 
 Below you can find OS specific install instructions for Neovim and dependencies.
 
 After installing all the dependencies continue with the Cloning step
 
-#### Windows Installation
+### Windows Installation
 
 <details><summary>Windows with Microsoft C++ Build Tools and CMake</summary>
 Installation may require installing build tools and updating the run command for `telescope-fzf-native`
@@ -84,7 +84,7 @@ sudo apt install make gcc ripgrep unzip git xclip neovim
 ```
 </details>
 
-#### Linux Install
+### Linux Install
 <details><summary>Ubuntu Install Steps</summary>
 
 ```
