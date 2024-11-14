@@ -27,9 +27,10 @@ git clone https://github.com/bradcodecraft/nvim.git "${env:LOCALAPPDATA}\nvim"
 ```
 
 </details>
+
 ## Features:
   -  Packaged with lazy vim
   -  Organized folder structure
   -  Customized keymap
 
-Check out lua/plugins for installed plugins
+**NOTE**: Check out lua/plugins for installed plugins
