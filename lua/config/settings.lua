@@ -3,6 +3,7 @@ vim.g.have_nerd_font = false
 
 -- Make line numbers default
 vim.opt.number = true
+vim.wo.relativenumber = true
 
 -- Make <tab> 2 character wide
 vim.opt.tabstop = 2
