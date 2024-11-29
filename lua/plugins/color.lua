@@ -1,6 +1,6 @@
 -- Change colorscheme
 function ColorMyPencils(color)
-	color = color or "catppuccin-mocha"
+	color = color or "tokyonight-night"
 	vim.cmd.colorscheme(color)
 
 	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
@@ -9,18 +9,17 @@ end
 
 return {
 	{
-		"catppuccin/nvim",
-		name = "catppuccin",
+		"folke/tokyonight.nvim",
+		name = "tokyonight",
+		lazy = false,
 		priority = 1000,
+		opts = {},
 		config = function()
-			require("catppuccin").setup({
-				flavour = "mocha",
-				transparent_background = true,
-				background = {
-					dark = "mocha",
-				},
+			require("tokyonight").setup({
+				style = "night",
+				transparent = true,
 			})
-			vim.cmd("colorscheme catppuccin-mocha")
+			vim.cmd("colorscheme tokyonight-night")
 			ColorMyPencils()
 		end,
 	},
