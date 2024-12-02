@@ -144,66 +144,64 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 <summary>Windows Terminal Settings</summary>
 
 ```
-profiles: {
-    "defaults": {
-        "backgroundImage": null,
-        "colorScheme": "Ayu Dark",
-        "font": {
-            "face": "FiraCode Nerd Font",
-            "size": 13
-        },
-        "opacity": 90,
-        "useAcrylic": false
+# profiles
+"defaults": {
+    "backgroundImage": null,
+    "colorScheme": "Ayu Dark",
+    "font": {
+        "face": "FiraCode Nerd Font",
+        "size": 13
     },
+    "opacity": 90,
+    "useAcrylic": false
+},
 
-"schemes": [
-    {
-        "background": "#0A0E14",
-        "black": "#01060E",
-        "blue": "#53BDFA",
-        "brightBlack": "#767676",
-        "brightBlue": "#59C2FF",
-        "brightCyan": "#95E6CB",
-        "brightGreen": "#C2D94C",
-        "brightPurple": "#FFEE99",
-        "brightRed": "#F07178",
-        "brightWhite": "#FFFFFF",
-        "brightYellow": "#FFB454",
-        "cursorColor": "#FFFFFF",
-        "cyan": "#90E1C6",
-        "foreground": "#B3B1AD",
-        "green": "#91B362",
-        "name": "Ayu Dark",
-        "purple": "#FAE994",
-        "red": "#EA6C73",
-        "selectionBackground": "#FFFFFF",
-        "white": "#C7C7C7",
-        "yellow": "#F9AF4F"
-    },
-    {
-        "background": "#1A1A18",
-        "black": "#928C80",
-        "blue": "#78D6F2",
-        "brightBlack": "#A0A0A0",
-        "brightBlue": "#6DDDF1",
-        "brightCyan": "#90E6BF",
-        "brightGreen": "#B9E293",
-        "brightPurple": "#6369DB",
-        "brightRed": "#DF806E",
-        "brightWhite": "#FBFCFF",
-        "brightYellow": "#E2D07A",
-        "cursorColor": "#FFFFFF",
-        "cyan": "#BCE5D2",
-        "foreground": "#6AE4F1",
-        "green": "#78E05E",
-        "name": "Cyberlife",
-        "purple": "#565BBC",
-        "red": "#DD563E",
-        "selectionBackground": "#FFFFFF",
-        "white": "#FFFFFF",
-        "yellow": "#F9FF4C"
-    }
-],
-
+# "schemes"
+{
+    "background": "#0A0E14",
+    "black": "#01060E",
+    "blue": "#53BDFA",
+    "brightBlack": "#767676",
+    "brightBlue": "#59C2FF",
+    "brightCyan": "#95E6CB",
+    "brightGreen": "#C2D94C",
+    "brightPurple": "#FFEE99",
+    "brightRed": "#F07178",
+    "brightWhite": "#FFFFFF",
+    "brightYellow": "#FFB454",
+    "cursorColor": "#FFFFFF",
+    "cyan": "#90E1C6",
+    "foreground": "#B3B1AD",
+    "green": "#91B362",
+    "name": "Ayu Dark",
+    "purple": "#FAE994",
+    "red": "#EA6C73",
+    "selectionBackground": "#FFFFFF",
+    "white": "#C7C7C7",
+    "yellow": "#F9AF4F"
+},
+{
+    "background": "#1A1A18",
+    "black": "#928C80",
+    "blue": "#78D6F2",
+    "brightBlack": "#A0A0A0",
+    "brightBlue": "#6DDDF1",
+    "brightCyan": "#90E6BF",
+    "brightGreen": "#B9E293",
+    "brightPurple": "#6369DB",
+    "brightRed": "#DF806E",
+    "brightWhite": "#FBFCFF",
+    "brightYellow": "#E2D07A",
+    "cursorColor": "#FFFFFF",
+    "cyan": "#BCE5D2",
+    "foreground": "#6AE4F1",
+    "green": "#78E05E",
+    "name": "Cyberlife",
+    "purple": "#565BBC",
+    "red": "#DD563E",
+    "selectionBackground": "#FFFFFF",
+    "white": "#FFFFFF",
+    "yellow": "#F9FF4C"
+}
 ```
 </details>
