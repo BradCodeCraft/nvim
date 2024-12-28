@@ -1,6 +1,6 @@
 -- Change colorscheme
 function ColorMyPencils(color)
-	color = color or "tokyonight-night"
+	color = color or "rose-pine"
 	vim.cmd.colorscheme(color)
 
 	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
@@ -9,17 +9,21 @@ end
 
 return {
 	{
-		"folke/tokyonight.nvim",
-		name = "tokyonight",
-		lazy = false,
-		priority = 1000,
-		opts = {},
+		"rose-pine/neovim",
+		name = "rose-pine",
 		config = function()
-			require("tokyonight").setup({
-				style = "night",
-				transparent = true,
+			require("rose-pine").setup({
+				dark_variant = "main",
+				dim_inactive_windows = false,
+				extend_background_behind_borders = true,
+				styles = {
+					bold = true,
+					italic = true,
+					transparency = true,
+				},
 			})
-			vim.cmd("colorscheme tokyonight-night")
+
+			vim.cmd("colorscheme rose-pine")
 			ColorMyPencils()
 		end,
 	},
