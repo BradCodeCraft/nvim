@@ -4,7 +4,7 @@ return {
 		vim.g.undotree_DiffCommand = "diff"
 
 		-- NOTE: Fixes undotree on Windows machines
-		if vim.loop.os_uname().sysname == "Windows" then
+		if vim.loop.os_uname().sysname == "Windows_NT" then
 			vim.g.undotree_DiffCommand = "FC"
 		end
 
