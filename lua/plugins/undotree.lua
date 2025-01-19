@@ -1,4 +1,4 @@
-return {
+return { -- NOTE: undotree
 	"mbbill/undotree",
 	config = function()
 		vim.g.undotree_DiffCommand = "diff"

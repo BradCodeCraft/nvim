@@ -1,4 +1,4 @@
-return {
+return { -- NOTE: treesitter
 	"nvim-treesitter/nvim-treesitter",
 	config = function()
 		require("nvim-treesitter.configs").setup({
