@@ -4,8 +4,11 @@ Feel free to copy any of the codes here if they are useful to you!
 
 ## Features:
 Packaged with lazy vim
+
 Organized folder structure
+
 Customized keymap
+
 Documented
 
 ## Setup
