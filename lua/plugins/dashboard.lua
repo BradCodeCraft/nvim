@@ -1,4 +1,4 @@
-return {
+return { -- NOTE: dashboard UI
 	{
 		"folke/snacks.nvim",
 		opts = {
