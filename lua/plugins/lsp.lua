@@ -225,7 +225,6 @@ return {
 				ts_ls = {},
 				cssls = {},
 				html = {},
-				jdtls = {},
 				jsonls = {},
 				sqls = {},
 				--
