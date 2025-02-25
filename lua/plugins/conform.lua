@@ -31,14 +31,16 @@ return {
 			}
 		end,
 		formatters_by_ft = {
-			lua = { "stylua" },
+			lua = { "stylua", stop_after_first = true },
 			-- Conform can also run multiple formatters sequentially
 			-- python = { "isort", "black" },
 			--
 			-- You can use 'stop_after_first' to run the first available formatter from the list
 			-- javascript = { "prettierd", "prettier", stop_after_first = true },
-			sql = { "sql-formatter" },
-			["*"] = { "prettier" },
+			sql = { "sql-formatter", stop_after_first = true },
+			python = { "isort", stop_after_first = true },
+			markdown = { "md-format", stop_after_first = true },
+			["*"] = { "prettier", stop_after_first = true },
 		},
 	},
 }
