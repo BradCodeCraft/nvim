@@ -10,7 +10,7 @@ end
 -- TODO: update line 13 to correct jdtls directory
 if vim.loop.os_uname().sysname == "Windows_NT" then
 	config = {
-		cmd = { "/usr/bin/jdtls" },
+		cmd = { "C:Program FilesCommon FilesOracleJavajavapathjava.exe" },
 		root_dir = vim.fs.dirname(vim.fs.find({ "gradlew", ".git", "mvnw" }, { upward = true })[1]),
 	}
 end
